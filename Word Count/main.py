@@ -5,7 +5,6 @@ file = open("D:\gutenberg.txt", "r")
 dictionary = dict()
 
 for sentence in file:
-    # Remove the leading spaces and newline character
     sentence = sentence.strip()
 
     sentence = sentence.lower()
