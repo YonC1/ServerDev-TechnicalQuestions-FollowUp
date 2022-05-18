@@ -1,6 +1,6 @@
 import string
 
-file = open("D:\gutenberg.txt", "r")
+file = open("gutenberg.txt", "r")
 
 dictionary = dict()
 
